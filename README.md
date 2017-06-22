@@ -7,12 +7,13 @@ Need to install xgboost library to run the code( and other libraries like sklear
 Also currently the code contains the local path of train and test data.
 Please help to change the below code from code.py to the location of the file you have saved the extracted test and train data to.
 
-#Open test data
-test = open(r'/home/devesh/Downloads/test.csv')
-testData = csv.reader(test)
-
-#Open training data
-training = open(r'/home/devesh/Downloads/train.csv')
+<br />
+#Open test data <br />
+test = open(r'/home/devesh/Downloads/test.csv')<br />
+testData = csv.reader(test)<br />
+<br />
+#Open training data<br />
+training = open(r'/home/devesh/Downloads/train.csv')<br />
 
 The code is sequential in the sense that first we are analyzing the data used in this experiment, then are cleaning the data, followed by 
 data manipulation to change the values of features which are less into 'Others' followed by prediction using the different classifiers.
