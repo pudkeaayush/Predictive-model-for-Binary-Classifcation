@@ -2,15 +2,13 @@
 Build a predictive model to classify the income of people above and below 50k per year. The original reference of this python code was the following blog post:
 https://www.analyticsvidhya.com/blog/2016/09/this-machine-learning-project-on-imbalanced-data-can-add-value-to-your-resume/
 
-Need to install xgboost library to run the code( and other libraries like sklearn, nltk and so on most commonly used in python today). 
-Also currently the code contains the local path of train and test data.
+Need to install xgboost library to run the code( and other libraries like sklearn, nltk and so on most commonly used in python today).
 
 Extract the train.zip and test.zip to the current directory and run the following command:
 
 <b> python code.py </b>
 
-The code is sequential in the sense that first we are analyzing the data used in this experiment, then are cleaning the data, followed by 
-data manipulation to change the values of features which are less into 'Others' followed by prediction using the different classifiers.
+The code is sequential in the sense that first we are analyzing the data used in this experiment, then are cleaning the data, followed by data manipulation to change the values of features which are less into 'Others' followed by prediction using the different classifiers.
 
 Our project revolved on binary classification of US Census data to classify the income of people
 below and above 50k per year. The main objective behind taking this project was that it contains 
