@@ -7,7 +7,7 @@ Also currently the code contains the local path of train and test data.
 
 Extract the train.zip and test.zip to the current directory and run the following command:
 
-<b> python code.py
+<b> python code.py </b>
 
 The code is sequential in the sense that first we are analyzing the data used in this experiment, then are cleaning the data, followed by 
 data manipulation to change the values of features which are less into 'Others' followed by prediction using the different classifiers.
